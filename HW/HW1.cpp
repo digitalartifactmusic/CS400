@@ -1,7 +1,3 @@
-// CS 400 HW 1 
-// Brute Force Project Euler 27
-// Name: Noah Grassmeyer
-
 #include <iostream>
 #include <cmath>
 #include <vector>
@@ -71,7 +67,6 @@ public:
 	void core(int thread)
 	{
 		vector<int>::iterator pItr = _primes.begin() + thread;
-		vector<tuple<int, int, int>>::iterator dItr = data.begin() + thread;
 		while (pItr < _primes.end())
 		{
 			for (int a = _aLowerBound; a <= _aUpperBound; a += 2)
