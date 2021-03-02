@@ -110,5 +110,19 @@ int main()
 	cf1.init();
 	cf1.execute();
 
+	cout << endl << endl;
+
+	for (unsigned i = 0; i < 40; ++i)
+	{
+		cout << (i * i) + i + 41 << endl;
+	}
+
+	cout << endl << endl;
+
+	for (unsigned i = 0; i < 80; ++i)
+	{
+		cout << ((i * i) - (79 * i)) + 1601 << endl;
+	}
+
 	return 0;
 }
